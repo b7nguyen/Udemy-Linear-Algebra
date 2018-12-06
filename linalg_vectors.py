@@ -69,7 +69,7 @@ plt.axis((-6, 6, -6, 6 ))
 plt.grid()
 plt.show()
 
-
+#%%
 ######VIDEO: Vector-scalar multiplication #####
 v1 = np.array([ 3, -1 ])
 l  = -.3
@@ -85,6 +85,7 @@ plt.grid()
 plt.show()
 
 
+#%%
 #####VIDEO: Vector-vector multiplication: the dot product #####
 v1 = np.array([ 1, 2, 3, 4, 5, 6 ])
 v2 = np.array([ 0, -4,  -3, 6, 5 ])
@@ -110,6 +111,7 @@ for i in range(0,len(v1)):
 print(dp)
 
 
+#%%
 ####VIDEO: Vector length #####
 
 v1 = np.array([ 1, 2, 3, 4, 5, 6, ])
