@@ -125,6 +125,7 @@ vl = np.linalg.norm(v1)
 print(vl)
 
 
+#%%
 #####VIDEO: The dot product from a geometric perspective #####
 
 v1 = np.array([ 2,  4, -3 ])
@@ -161,6 +162,8 @@ dp_g = np.linalg.norm(v1)*np.linalg.norm(v2)*np.cos(ang)
 print(dp_a)
 print(dp_g)
 
+#%%
+
 ####VIDEO: Vector outer product ####
 
 v1 = np.array([  1, 2, 3 ])
@@ -177,6 +180,8 @@ for i in range(0,len(v1)):
 
 print(op)
 
+
+#%%
 
 #### VIDEO: Unit vector ####
 
@@ -200,6 +205,8 @@ plt.grid()
 plt.legend()
 plt.show()
 
+
+#%%
 #### VIDEO: Span ####
 
 # set S
